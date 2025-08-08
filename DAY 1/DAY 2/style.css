@@ -1,0 +1,21 @@
+/* Element Selector: */
+p {
+  color: red;
+}
+
+/* Class Selector: */
+.ab {
+  color: blueviolet;
+}
+
+/* ID Selector */
+#cd {
+  color: darkorange;
+}
+
+/* Grouping Selector */
+h1,
+h2,
+h3 {
+  color: chocolate;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Forms, Tables & Basic Styling</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Internal Style -->
+  <style>
+    table {
+      color: blue;
+    }
+  </style>
+</head>
+
+<body>
+
+  <hr /> 
+
+  <h2>Table Structure & Attributes</h2>
+  <table border="1">
+    <caption>Test</caption>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+    </tr>
+    <tr>
+      <td rowspan="3">iksonraj</td>
+      <td>iksonraj@gmail.com</td>
+    </tr>
+    <tr>
+      <td>iksonraj@1207</td>
+    </tr>
+    <tr>
+      <td colspan="2">iksonraj</td>
+    </tr>
+  </table> 
+
+  <form action="succes.html" method="get">
+    <table cellpadding="5px" cellspacing="25px">
+      <tr>
+        <td><label>Name:</label></td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td><label>Email:</label></td>
+        <td><input type="email" /></td>
+      </tr>
+      <tr>
+        <td><label>Password:</label></td>
+        <td><input type="password" /></td>
+      </tr>
+      <tr>
+        <td colspan="2"><button>Submit</button></td>
+      </tr>
+    </table>
+     </form>
+
+  
+   <a href="./success.html">go another page</a>
+</body>
+</html>
