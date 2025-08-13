@@ -1,0 +1,163 @@
+
+*{
+   margin: 0;
+   padding: 0;
+}
+.container{
+   margin-left: 20%;
+   margin-top: 5%;
+   margin-right: 20%;
+   border-style:solid;
+   border-color:black;
+   height: 300px;
+   
+   
+   
+   
+}
+.ab{
+   text-align: center;
+   background-color: antiquewhite;
+   padding: 20px;
+   
+}
+
+ 
+
+
+
+
+
+.d1{
+   height: 10px;
+   
+   background-color: black;
+   margin: 0;
+   display: inline;
+     border: none;
+     width: 3px;
+}
+.d2{
+   height: 10px;
+   width: 10px;
+   background-color: orange;
+   display: inline;
+   margin-right: 2px;
+   margin: 0;
+   color: orange;
+     border: none;
+  
+  
+}
+.d3{
+   height: 10px;
+   width: 10px;
+   background-color: blue;
+   display: inline;
+   margin-right: 10px;
+   margin: 0;
+   color:blue ;
+     border: none;
+   
+}
+.d4{
+   height: 10px;
+   width: 10px;
+   background-color: purple;
+   display: inline;
+   margin-right: 2px;
+   margin: 0;
+   color: purple;
+     border: none;
+
+
+}
+.d5{
+height: 10px;
+   width: 10px;
+   background-color: red;
+  display: inline;
+  margin-right: 2px;
+  margin: 0;
+  color: red ;
+  border: none;
+}
+.d6{
+   height: 10px;
+   width: 10px;
+   background-color: violet;
+   display: inline;
+   margin-right: 2px;
+   margin: 0;
+   color: violet;
+   border-color: violet;
+     border: none;
+ 
+}
+h1::after{
+  content:"sale ";
+  position: absolute;
+  background-color: red;
+  color: white;
+  margin: 0;
+  right: 78%;
+  top: 60px;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+
+img{
+    float: left;
+}
+article{
+    float: left;
+    width: 20%;
+    
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top:0;
+    
+}
+article p{
+    display: inline;
+   
+}
+article strong{
+    font-weight: 40px;
+    font-size: larger;
+    padding-right: 20px;
+}
+.cont2 h2,li,ul{
+   padding-right: 70px;
+   padding-top: 0
+   ;
+}
+img{
+   height: 235px;
+}
+.container3{
+     margin-left: 20%;
+     margin-right: 20%;
+     text-align: center;
+     border-style: solid;
+     border-width: bold;
+     border-top: none;
+     border-color: black;
+       background-color: black;
+   color: white;
+      justify-items: center;
+     
+
+     
+     
+      
+   
+}
+.container3:hover{
+ background-color: white;
+   color: black;
+   cursor: pointer;
+   border-top: none;
+
+}
